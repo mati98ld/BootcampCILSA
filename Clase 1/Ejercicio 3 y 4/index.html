@@ -11,13 +11,33 @@
       <h1>Formulario de Datos Personales</h1>
       <form class="formulario">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required />
+        <input
+          type=""
+          id="nombre"
+          name="nombre"
+          required
+          placeholder="Nombre"
+          pattern="[A-Za-z]{2,}"
+        />
         <br />
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" required />
+        <input
+          type="text"
+          id="apellido"
+          name="apellido"
+          required
+          placeholder="Apellido"
+          pattern="[A-Za-z]{2,}"
+        />
         <br />
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Email"
+        />
         <br />
         <label for="fechaNacimiento">Fecha de Nacimiento:</label>
         <input
@@ -26,10 +46,18 @@
           name="fechaNacimiento"
           required
           min="1944-01-01"
+          pattern="[0-9]{4}-[0-9]{2}-[0-9]{2}"
         />
         <br />
         <label for="pais">País de Residencia:</label>
-        <input type="text" id="pais" name="pais" required />
+        <input
+          type="text"
+          id="pais"
+          name="pais"
+          required
+          placeholder="País"
+          pattern="[A-Za-z]{2,}"
+        />
         <br />
         <button type="submit">Enviar</button>
       </form>
