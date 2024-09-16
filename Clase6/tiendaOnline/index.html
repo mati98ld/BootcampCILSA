@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="bg-dark bg-gradient">
     <header>
       <nav
         class="navbar navbar-expand-lg navbar-light bg-dark border-bottom border-body"
@@ -36,48 +36,38 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  type="button"
+                  id="inicio"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
+                <a class="nav-link" type="button" id="Alimentos">Alimentos</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
+              <li class="nav-item">
+                <a class="nav-link" type="button" id="Estetica"
+                  >Estetica e Higiene</a
                 >
-                  Categorias
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="alimentos.html">Alimentos</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="esteticaHigiene.html"
-                      >Estetica e higiene</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="accesorios.html"
-                      >Accesorios</a
-                    >
-                  </li>
-                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" type="button" id="Accesorios">Accesorios</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <div class="container"></div>
+    <div class="container text-center">
+      <div id="container" class="row"></div>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
