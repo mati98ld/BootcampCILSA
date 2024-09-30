@@ -14,7 +14,7 @@ const productos = [
     ],
     descripcion:
       "Posee sistema operativo Android y procesador Octa-Core que te permitirán mejorar el rendimiento. Además, gracias a la memoria interna de 32 GB podrás utilizar tus aplicaciones favoritas, manejar tus redes sociales, llevar tus juegos preferidos, guardar tu música y fotos. Incluso, tendrás la posibilidad de expandirla con una tarjeta microSD en hasta 1TB. Tablet 3 GB RAM Tablet 32 GB Tablet procesador Octa-Core",
-    ruta: "/TecnoStore/assets/pages/tablets/tablet-A7LT-T220.html",
+    ruta: "/TecnoStore/pages/tablets/tablet-A7LT-T220.html",
   },
   {
     nombre: "Tablet Acer 10” 64GB 4GB Android 12 ICONIA Tab M10 Silver",
@@ -31,7 +31,7 @@ const productos = [
     ],
     descripcion:
       "La Tablet Acer soporta redes WLAN 802.11a/b/g/n/ac, asegurando una conexión inalámbrica rápida y estable. Además, cuenta con Bluetooth 5.0, permitiendo una conexión eficiente con otros dispositivos compatibles. La tablet Acer ICONIA Tab M10 cuenta con una pantalla IPS de 10.1 pulgadas con tecnología IPS y resolución FHD. Tiene el procesador MediaTek M8183C Octa-Core. Cuenta con sistema operativo Android 12, brindando una interfaz moderna, segura y optimizada. Con 64GB de almacenamiento interno y 4GB de RAM.",
-    ruta: "/TecnoStore/assets/pages/tablets/tablet-M10-11-K01Z.html",
+    ruta: "/TecnoStore/pages/tablets/tablet-M10-11-K01Z.html",
   },
   {
     nombre: "Tablet Lenovo Yoga Tab 13 OctaCore 8GB 128GB",
@@ -48,7 +48,7 @@ const productos = [
     ],
     descripcion:
       "Tablet procesador Octa-Core. Ponla de pie, cuelga e inclina tu tablet con un soporte de acero inoxidable con una impresionante calidad de imagen 2K a través de Dolby Vision. Audio cinematográfico en movimiento con Dolby Atmos® con cuatro altavoces JBL. Obtén una mayor productividad con doble pantalla.Y el Lenovo Precision Pen 2 opcional (no incluido) es un regalo del cielo para los creadores, ya que te ofrece la destreza y la libertad para dibujar diseños directamente en la pantalla, tal y como lo harías en un bloc de dibujo.",
-    ruta: "/TecnoStore/assets/pages/tablets/tablet-Yoga-Tab.html",
+    ruta: "/TecnoStore/pages/tablets/tablet-Yoga-Tab.html",
   },
   {
     nombre:
@@ -67,7 +67,7 @@ const productos = [
     ],
     descripcion:
       "La notebook Samsung Cuenta con un diseño delgado, un peso de menos de 1,6 kg y una pantalla de 15,6 pulgadas y resolución FHD (1920 x 1080). Su memoria de 8 GB LPDDR, 512 GB de almacenamiento SSD y el procesador Intel Core i5 te brindarán una gran eficiencia y velocidad. Cuenta con puertos 2 USB tipo C y 2 USB 3.2, 1 HDMI y una  batería de larga duración de 54 Wh, que ofrece hasta 12 horas de autonomía, podrás usar la notebook durante todo el día sin tener que preocuparte.",
-    ruta: "/TecnoStore/assets/pages/notebooks/notebook-NP750XFG-KB2A.html",
+    ruta: "/TecnoStore/pages/notebooks/notebook-NP750XFG-KB2A.html",
   },
   {
     nombre: 'Notebook HP Core Ultra 5 14" 8GB 512GB SSD',
@@ -85,7 +85,7 @@ const productos = [
     ],
     descripcion:
       "Combinando su procesador Intel Core Ultra 5 con la memoria RAM de 8GB y el almacenamiento SSD de 512GB, la HP 14-EP1002LA ofrece un gran desempeño. Con una pantalla de 14 pulgadas y su resolución FHD, podrás usar la notebook HP para trabajar o estudiar con comodidad. Con su batería de 3 celdas y 41 Wh podrás llevar tu Notebook HP 14-EP1002LA con vos a todos lados y mantener tu productividad al máximo ya que la duración de esta batería es de hasta 8 horas y 45 minutos. Viene con el sistema operativo Windows 11",
-    ruta: "/TecnoStore/assets/pages/notebooks/notebook-14-EP1002LA.html",
+    ruta: "/TecnoStore/pages/notebooks/notebook-14-EP1002LA.html",
   },
   {
     nombre: "Notebook Acer 15,6” AMD Ryzen 5 8GB 256GB SSD Aspire 3",
@@ -103,7 +103,7 @@ const productos = [
     ],
     descripcion:
       "La notebook Acer Aspire 3 cuenta con una pantalla de 15.6 pulgadas con resolución FHD. Está equipada con un procesador AMD Ryzen 5, capaz de manejar tareas multitarea, navegación web, reproducción de videos, y más, con gran fluidez. La Acer Aspire 3 posee una batería de 40 Wh, capaz de ofrecer hasta 11 horas de uso continuo. Viene con un almacenamiento SSD de 256GB que garantiza tiempos de carga rápidos y cuenta con 8GB de memoria SDRAM, lo que permite una multitarea fluida y un rendimiento ágil.",
-    ruta: "/TecnoStore/assets/pages/notebooks/notebook-A315-24P-R4JA.html",
+    ruta: "/TecnoStore/pages/notebooks/notebook-A315-24P-R4JA.html",
   },
   {
     nombre: "Smartphone Samsung Galaxy S23 Ultra 512GB 12GB Phantom Black",
@@ -120,7 +120,7 @@ const productos = [
     ],
     descripcion:
       "El Samsung Galaxy S23 Ultra cuenta con pantalla Dynamic AMOLED 2X de 6,8 pulgadas con resolución QHD+ y frecuencia de actualización de 120 Hz. Procesador Snapdragon 8 Gen 2, almacenamiento de 512GB, 12GB de RAM y cámara principal de 200 MP. Batería de 5000 mAh y sistema operativo Android 13. Además, cuenta con un S-Pen integrado.",
-    ruta: "/TecnoStore/assets/pages/smartphones/smartphone-S23U-512GB.html",
+    ruta: "/TecnoStore/pages/smartphones/smartphone-S23U-512GB.html",
   },
   {
     nombre: "Smartphone Apple iPhone 15 Pro Max 256GB Titanio Negro",
@@ -137,7 +137,7 @@ const productos = [
     ],
     descripcion:
       "El Apple iPhone 15 Pro Max cuenta con una pantalla Super Retina XDR OLED de 6,7 pulgadas, procesador A17 Pro, 256GB de almacenamiento, 8GB de RAM y cámara principal de 48 MP. Batería de larga duración con capacidad de 4852 mAh y sistema operativo iOS 17. Construido en titanio, más resistente y ligero.",
-    ruta: "/TecnoStore/assets/pages/smartphones/smartphone-iPhone15PM-256GB.html",
+    ruta: "/TecnoStore/pages/smartphones/smartphone-iPhone15PM-256GB.html",
   },
   {
     nombre: "Smartphone Google Pixel 8 Pro 128GB 12GB Snow",
@@ -154,7 +154,7 @@ const productos = [
     ],
     descripcion:
       "El Google Pixel 8 Pro cuenta con pantalla LTPO OLED de 6,7 pulgadas con resolución QHD+ y tasa de refresco adaptativa de 120 Hz. Procesador Tensor G3, 128GB de almacenamiento, 12GB de RAM y cámara principal de 50 MP. Batería de 5050 mAh y sistema operativo Android 14. Resistente al agua y al polvo con certificación IP68.",
-    ruta: "/TecnoStore/assets/pages/smartphones/smartphone-Pixel8P-128GB.html",
+    ruta: "/TecnoStore/pages/smartphones/smartphone-Pixel8P-128GB.html",
   },
 ];
 
