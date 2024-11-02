@@ -32,20 +32,53 @@
   </head>
   <body>
     <div id="navbar"></div>
-    <div class="filter-buttons">
-      <button onclick="filtrarProductos('Mostrar todo')">Mostrar todo</button>
-      <button onclick="filtrarProductos('Tablet')">Tablets</button>
-      <button onclick="filtrarProductos('Notebook')">Notebooks</button>
-      <button onclick="filtrarProductos('Smartphone')">Smartphones</button>
-    </div>
     <div class="container">
-      <div class="productos-container"></div>
+      <div>
+        <h1 class="text-center mt-3 text-primary">CONTACTO</h1>
+        <form action="https://formspree.io/f/manyepzg" method="POST">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"
+              >Dirección de email</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              name="email"
+            />
+            <div id="emailHelp" class="form-text">
+              No compartiremos tu email con nadie.
+            </div>
+          </div>
+          <div class="mb-4">
+            <label for="exampleInput" class="form-label">Tu nombre</label>
+            <input
+              type="text"
+              class="form-control"
+              id="exampleInput"
+              name="nombre"
+            />
+          </div>
+          <div class="mb-4">
+            <label for="floatingTextarea2" class="form-label"
+              >¿En qué podemos ayudarte?</label
+            >
+            <textarea
+              class="form-control"
+              placeholder="Deja aquí tu comentario"
+              id="floatingTextarea2"
+              style="height: 100px"
+              name="comentario"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
     </div>
     <div id="footer"></div>
 
     <script src="/js/main.js"></script>
-    <script src="/js/productos.js"></script>
-    <script src="/js/listaProductos.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
